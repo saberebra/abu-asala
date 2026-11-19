@@ -1,0 +1,23 @@
+name = "abu-asala-api"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "abo_asala_menu_database"
+database_id = "22b0b9a1-9f8c-43d7-9d5c-fbe4ff4729fb"
+
+[[kv_namespaces]]
+binding = "MENU_KV"
+id = "ee42bbaafee54114a832042224c09caf"
+
+[vars]
+DELIVERY_FEE = "15"
+R2_PUBLIC_BASE = ""      # e.g. https://icons.yourdomain.com  (public base address of the R2 bucket)
+ALLOWED_ORIGIN = "*"     # put your Pages address here once it is live, e.g. https://abu-asala.pages.dev
+
+# Optional: rebuild the menu cache every 30 minutes
+# [triggers]
+# crons = ["*/30 * * * *"]
+
+# Secret (never commit it):  npx wrangler secret put ADMIN_KEY

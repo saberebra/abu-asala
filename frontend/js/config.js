@@ -5,7 +5,7 @@
  */
 window.ABU_ASALA_CONFIG = {
   MENU_API_URL: "",       // Example: https://abu-asala-api.example.workers.dev/api/menu
-  PUBLIC_MENU_TOKEN: "",  // Leave empty until your public-menu auth scheme is configured. Never use a private secret here.
+  PUBLIC_MENU_TOKEN: "",  // Optional. Leave empty if the menu is public. Never put a private secret here.
   DELIVERY_FEE: 15,
   ORDER_API_URL: ""       // Configure later when the order endpoint is ready.
 };
