@@ -7,5 +7,5 @@ window.ABU_ASALA_CONFIG = {
   MENU_API_URL: "https://abu-asala.mahmoudsaberebra.workers.dev/api/menu",       // Example: https://abu-asala-api.example.workers.dev/api/menu
   PUBLIC_MENU_TOKEN: "",  // Optional. Leave empty if the menu is public. Never put a private secret here.
   DELIVERY_FEE: 15,
-  ORDER_API_URL: ""       // Configure later when the order endpoint is ready.
+  ORDER_API_URL: "https://breeze-amber-scale.ngrok-free.dev/webhook/25210bd7-b5e6-48f7-b01f-a261775eea1f"       // Configure later when the order endpoint is ready.
 };
